@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+ 
+<head>
+<meta charset="utf-8">
+ <meta name="keywords" content="Encuentra tu mascota">
+ <meta name="description" content="Registro">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="file:///C:Git/adopt-animals-app/Styles.css" type="text/css" rel="stylesheet">
+ <title>Adopcion de mascotas</title>    
+    <!-- Bootstrap CSS -->    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">   
+
+</head>
+
+<body id="bodycatalogo">
+    <h1 id="Titulo">Adopta tu mascota
+        <img src="C:\Git\adopt-animals-app\Assets\logo2.JPG" alt="logo" class="logo" id="imagenpequena"></h1>
+        <nav id="navbarcolor">
+      <form class="form-inline">
+    <a href = "inicial.html" button class="btn btn-outline-success" type="button">Inicio</button></a>
+    <a href = "list.html" button class="btn btn-outline-success" type="button">Catalogo</button></a>
+    <a href = "registro.html" button class="btn btn-outline-success" type="button">Registro</button></a>
+    <a href = "blog.html"button class="btn btn-outline-success" type="button">Blog</button></a>
+      </form>
+    </nav>
+    <br>
+    <div id="forms">  
+        <div class="row"> 
+<div class="container" id="form1">
+     <div class="col">
+      <h2 id="Titulo">Registro</h2>
+       <form action="url-to-server.php" method="post"> 
+       <form action="url-to-server.php" method="post" id="form1">
+        <label for="Categoria">Categoria:</label>
+          <br>
+          <select required id="Categoria">
+            <option value="Perro">Perro</option>
+            <option value="Gato">Gato</option>
+            <option value="Otro">Otro</option>
+            </select>
+         <br>
+        <label for="Nombre">Nombre:</label>
+        <br>
+        <input type="text" id="Nombre" placeholder="Nombre de la mascota">
+            <br>
+       <label for="Sexo">Sexo:</label>
+              <br>
+              <select required id="Sexo">
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+                </select>
+             <br>
+              
+       <label for="Edad">Edad:</label>
+              <br>
+              <select required id="Edad">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="Mas de 4">Mas de 4</option>
+            </select>
+             <br>
+      <label for="Raza">Raza:</label>
+              <br>
+              <select required id="Raza">
+                  <option value="">Elige la raza de tu mascota</option>
+                  <option value="Mastin">Mastin</option>
+                  <option value="Bull dog ingles">Bull dog ingles</option>
+                  <option value="Jack russell">Jack russell</option>
+                  <option value="Siames">Siames</option>
+                  <option value="Otro">Otro</option>
+              </select>
+              <br>
+          <label for="Barrio">Barrio:</label>
+              <br>
+              <select required id="Barrio">
+                  <option value="">Selecciona tu barrio</option>
+                  <option value="Todos">Todos</option>
+                  <option value="Aguada">Aguada</option>
+                  <option value="Carrasco">Carrasco</option>
+                  <option value="Centro">Centro</option>
+                  <option value="Parque Rodo">Parque rodo</option>
+                  <option value="Pocitos">Pocitos</option>
+                  <option value="Otro">Otro</option>
+              </select>
+              <br>
+              <label for="Color de pelo y ojos">Color de pelo y ojos:</label>
+              <br>
+              <input type="text" id="Color de pelo y ojos" placeholder="Color de pelo y ojos">
+                  <br>  
+              <label for="Descripcion">Descripcion:</label>
+              <br>
+                  <textarea name="Descripcion" id="Descripcion" cols="40" rows="10" placeholder="Descripcion"></textarea>
+                  <br>    
+              <label for="Foto">Foto:</label><br>
+          <button type="submit" id="Agregar Foto">Agregar Foto</button>
+           <br></form>
+          </div>
+        </div>
+            <div class="container" id="form2" class="col-auto">
+              
+           <form action="url-to-server.php" method="post">
+          <h5 id="Titulo">Datos de contacto</h5>
+          <br>
+          <label for="Nombre">Nombre:</label>
+          <br>
+          <input type="text" id="Nombre" placeholder="Nombre de la mascota">
+          <br>
+          <label for="Telefono">Telefono:</label>
+          <br>
+          <input type="number" id="Telefono" placeholder="Telefono de contacto">
+          <br>
+          <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="Ingrese email">
+           <br>
+           <br>
+            <button type="submit" id="Registrar" class="btn btn-primary">Registrar</button>
+          </form>
+        </form>
+        <br>
+        <br>
+      
+    </div>
+    </div>
+    </div>

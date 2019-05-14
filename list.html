@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+ 
+<head>
+<meta charset="utf-8">
+ <meta name="keywords" content="Encuentra tu mascota">
+ <meta name="description" content="inicial">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="file:///C:Git/adopt-animals-app/Styles.css" type="text/css" rel="stylesheet">
+ <title>Adopcion de mascotas</title>    
+    <!-- Bootstrap CSS -->    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">   
+
+</head>
+
+<body id="bodycatalogo">
+    <h1 id="Titulo">Adopta tu mascota
+        <img src="C:\Git\adopt-animals-app\Assets\logo2.JPG" alt="logo" class="logo" id="imagenpequena"></h1>
+    <nav id="navbarcolor">
+      <form class="form-inline">
+    <a href = "inicial.html" button class="btn btn-outline-success" type="button">Inicio</button></a>
+    <a href = "list.html" button class="btn btn-outline-success" type="button">Catálogo</button></a>
+    <a href = "registro.html" button class="btn btn-outline-success" type="button">Registro</button></a>
+    <a href = "blog.html"button class="btn btn-outline-success" type="button">Blog</button></a>
+      </form>
+    </nav>
+    <br>
+    <br>
+<div class="container" id="buscadorycatalogo">
+  <div class="row">
+    <div class="col-2">
+      <h2 id="Titulo">Buscador</h2>
+      <section>
+       <form action="url-to-server.php" method="post" id="Formulariobuscador">
+        <label for="Categoría">Categoría:</label>
+          <br>
+          <select required id="Categoria">
+            <option value="Perro">Perro</option>
+            <option value="Gato">Gato</option>
+            <option value="Otro">Otro</option>
+            </select>
+         <br>
+       <label for="Sexo">Sexo:</label>
+              <br>
+              <select required id="Sexo">
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+                </select>
+             <br>
+              
+       <label for="Edad">Edad:</label>
+              <br>
+              <select required id="Edad">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="Mas de 4">Mas de 4</option>
+            </select>
+             <br>
+      <label for="Raza">Raza:</label>
+              <br>
+              <select required id="Raza">
+                  <option value="">Elige la raza de tu mascota</option>
+                  <option value="Mastin">Mastin</option>
+                  <option value="Bull dog ingles">Bull dog ingles</option>
+                  <option value="Jack russell">Jack russell</option>
+                  <option value="Siames">Siames</option>
+                  <option value="Otro">Otro</option>
+              </select>
+              <br>
+              <label for="Barrio">Barrio:</label>
+              <br>
+              <select required id="Barrio">
+                  <option value="">Selecciona tu barrio</option>
+                  <option value="Todos">Todos</option>
+                  <option value="Aguada">Aguada</option>
+                  <option value="Carrasco">Carrasco</option>
+                  <option value="Centro">Centro</option>
+                  <option value="Parque Rodo">Parque rodo</option>
+                  <option value="Pocitos">Pocitos</option>
+                  <option value="Otro">Otro</option>
+              </select>
+              <br>
+              <br>
+            <button type="submit" id="Buscar">Buscar</button>
+          </form>
+     </div>
+    <div class="col" id="listacatalogo">
+    <div class="container">
+    <div class="row">
+    <div class="col-3" id="itemcatalogo">
+    <div class="card w-75">
+    <div class="card-body">
+    <a href = "ficha.html"><h5>Marco</h5></a>
+  <img src="C:\Git\adopt-animals-app\Assets\Marco.JPG" title="Marco" id="imagenpequena"class="img-fluid" alt="Responsive image"> 
+</div>
+</div>
+</div>
+    
+<div class="col-3">
+ <div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Paca</h5></a>
+<img src="C:\Git\adopt-animals-app\Assets\Paca.JPG" title="Paca" id="imagenpequena"class="img-fluid" alt="Responsive image"> 
+</div>
+</div>
+</div>
+
+<div class="col-3">
+<div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Lupe</h5></a>
+<img src="C:\Git\adopt-animals-app\Assets\Lupe.JPG" class="img-fluid" alt="Responsive image" title="Lupe" id="imagenpequena"> 
+</div>
+</div>
+</div>
+
+<div class="col-3">
+<div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Sasha</h5></a>
+<img src="C:\Git\adopt-animals-app\Assets\Sasha.JPG" class="img-fluid" alt="Responsive image" title="Sasha" id="imagenpequena"> 
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Hugo</h5></a>
+<img src="C:\Git\adopt-animals-app\Assets\Hugo.JPG" class="img-fluid" alt="Responsive image" title="Hugo" id="imagenpequena"> 
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Neko</h5></a>
+<img src="C:\Git\adopt-animals-app\Assets\Neko.JPG" class="img-fluid" alt="Responsive image" title="Neko" id="imagenpequena"> 
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Estrella</h5></a>
+<img src="C:\Git\adopt-animals-app\Assets\Estrella.JPG" class="img-fluid" alt="Responsive image" title="Estrella" id="imagenpequena"> 
+</div>
+</div>
+</div>
+ <div class="col-3">
+<div class="card w-75">
+<div class="card-body">
+<a href = "ficha.html"><h5>Yako</h5></a>
+ <img src="C:\Git\adopt-animals-app\Assets\Yako.JPG" class="img-fluid" alt="Responsive image" title="Yako" id="imagenpequena"> 
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+        
