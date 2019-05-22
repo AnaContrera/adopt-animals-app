@@ -13,40 +13,48 @@ h5
 #Volverainicio {
       color:black;
 }
+#Volverainicio:hover{ background-color: #1fb16d;}
 .logo {
   align-content: flex-end;
 }
-.navbarcolor{
+#navbarcolor{
   background-color: #b5f5d7;
+  opacity: 1;
 
 }
 
-
-#fotoinicio
+#botonnav {
+  background-color: rgb(11, 94, 89);
+  color: white;
+}
+#botonnav:hover{ background-color: #1fb16d;}
+.fotoinicio
 {
 repeat: no-repeat;
-position:100% 100%;
-opacity: 0.5;
 width:100%;
-height:100%;
+height:80%;
 float: left;
 
 } 
 #IralCatalogo {
   align-content: flex-end;
   background-color: rgb(11, 94, 89);
-  color: black;
+  color: white;
  position: absolute;
  float: left;
  position:relative;
   left:50%;
   top:80%;
+  opacity: 1;
+  
   } 
+  #IralCatalogo:hover{ background-color: #1fb16d;}
 
 
 
 #formulariobuscador {
   align-content: left;
+  display: flex;
 }
 #imagenpequena {
   width: 100px; height: 100px;
@@ -54,10 +62,22 @@ float: left;
   border: 5px; 
   
 }
-#itemcatalogo
+.itemcatalogo
 {
-  padding-bottom: 15px;
+ 
+  width: 237px;
+  margin: 10px;
+  border-color: grey;
+  border:2px;
+  
 }
+
+#verficha
+{
+  background-color: rgb(11, 94, 89);
+  
+}
+#verficha:hover{ background-color: #1fb16d;}
 #buscadorycatalogo
 { 
   margin-left: 10px;
@@ -65,6 +85,13 @@ float: left;
   width: 100%;
   padding-right: 0px;
   height: 100%;
+ 
+}
+#Buscar {background-color: rgb(11, 94, 89);
+color: white; }
+#Buscar:hover{ background-color: #1fb16d;}
+#listacatalogo {column: wrap;
+   flex-flow: row wrap;
 
 }
 
@@ -75,8 +102,19 @@ float: left;
 
 #Adoptar {
   background-color: rgb(11, 94, 89);
-  color: black;
+  color: white;
 }
+#Adoptar:hover{ background-color: #1fb16d;}
+#guardarcomofavorito {
+  background-color: rgb(11, 94, 89);
+  color: white;
+}
+#guardarcomofavorito:hover{ background-color: #1fb16d;}
+#volverainicio {
+  background-color: rgb(11, 94, 89);
+  color: white;
+}
+#volverainicio:hover{ background-color: #1fb16d;}
 .Fichas {
   background-color: #b5f5d7;
   margin-left: 20px;
@@ -103,8 +141,9 @@ float: left;
 
 #Registrar {
   background-color: rgb(11, 94, 89);
-  color: black;
+  color: white;
 }
+#Registrar:hover{ background-color: #1fb16d;}
 
 #forms {
   background-color: #b5f5d7;
@@ -136,8 +175,9 @@ margin-left: 0px;
 margin-right: 0px;
 } 
 
-
- 
+#rowblog {
+  margin-left: 2px;
+} 
 
  
  

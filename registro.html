@@ -18,10 +18,10 @@
         <img src="C:\Git\adopt-animals-app\Assets\logo2.JPG" alt="logo" class="logo" id="imagenpequena"></h1>
         <nav id="navbarcolor">
       <form class="form-inline">
-    <a href = "inicial.html" button class="btn btn-outline-success" type="button">Inicio</button></a>
-    <a href = "list.html" button class="btn btn-outline-success" type="button">Catalogo</button></a>
-    <a href = "registro.html" button class="btn btn-outline-success" type="button">Registro</button></a>
-    <a href = "blog.html"button class="btn btn-outline-success" type="button">Blog</button></a>
+    <a href = "inicial.html" button class="btn btn-outline-success" type="button" id="botonnav">Inicio</button></a>
+    <a href = "list.html" button class="btn btn-outline-success" type="button" id="botonnav">Catalogo</button></a>
+    <a href = "registro.html" button class="btn btn-outline-success" type="button" id="botonnav">Registro</button></a>
+    <a href = "blog.html"button class="btn btn-outline-success" type="button" id="botonnav">Blog</button></a>
       </form>
     </nav>
     <br>
@@ -51,19 +51,11 @@
                 <option value="Masculino">Masculino</option>
                 </select>
              <br>
-              
-       <label for="Edad">Edad:</label>
-              <br>
-              <select required id="Edad">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="Mas de 4">Mas de 4</option>
-            </select>
+             <label for="Fechadenacimiento">Fecha de nacimiento:</label>
              <br>
-      <label for="Raza">Raza:</label>
+     <input type="date" id="fechadenacimiento" placeholder="Fecha de nacimiento de tu mascota" required>
+             <br>       
+       <label for="Raza">Raza:</label>
               <br>
               <select required id="Raza">
                   <option value="">Elige la raza de tu mascota</option>

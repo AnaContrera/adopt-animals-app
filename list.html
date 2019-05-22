@@ -18,10 +18,10 @@
         <img src="C:\Git\adopt-animals-app\Assets\logo2.JPG" alt="logo" class="logo" id="imagenpequena"></h1>
     <nav id="navbarcolor">
       <form class="form-inline">
-    <a href = "inicial.html" button class="btn btn-outline-success" type="button">Inicio</button></a>
-    <a href = "list.html" button class="btn btn-outline-success" type="button">Catálogo</button></a>
-    <a href = "registro.html" button class="btn btn-outline-success" type="button">Registro</button></a>
-    <a href = "blog.html"button class="btn btn-outline-success" type="button">Blog</button></a>
+    <a href = "inicial.html" button class="btn btn-outline-success" type="button" id="botonnav">Inicio</button></a>
+    <a href = "list.html" button class="btn btn-outline-success" type="button"id="botonnav">Catálogo</button></a>
+    <a href = "registro.html" button class="btn btn-outline-success" type="button"id="botonnav">Registro</button></a>
+    <a href = "blog.html"button class="btn btn-outline-success" type="button" id="botonnav">Blog</button></a>
       </form>
     </nav>
     <br>
@@ -48,17 +48,10 @@
                 </select>
              <br>
               
-       <label for="Edad">Edad:</label>
+       <label for="Fechadenacimiento">Fecha de nacimiento:</label>
               <br>
-              <select required id="Edad">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="Mas de 4">Mas de 4</option>
-            </select>
-             <br>
+      <input type="date" id="fechadenacimiento" placeholder="Fecha de nacimiento de tu mascota" required>
+              <br>
       <label for="Raza">Raza:</label>
               <br>
               <select required id="Raza">
@@ -87,74 +80,78 @@
             <button type="submit" id="Buscar">Buscar</button>
           </form>
      </div>
-    <div class="col" id="listacatalogo">
-    <div class="container">
-    <div class="row">
-    <div class="col-3" id="itemcatalogo">
-    <div class="card w-75">
-    <div class="card-body">
-    <a href = "ficha.html"><h5>Marco</h5></a>
-  <img src="C:\Git\adopt-animals-app\Assets\Marco.JPG" title="Marco" id="imagenpequena"class="img-fluid" alt="Responsive image"> 
-</div>
-</div>
-</div>
+     <div class="col" id="listacatalogo">
+        <div class="container">
+        <div class="row">
+         <div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+        <img src="C:\Git\adopt-animals-app\Assets\Marco.JPG" title="Marco" id="imagenpequena" class="card-img-top">
+        <div class="card-body"> 
+        <h5 class="card-title">Marco</h5>
+          <p class="card-text">Descripción pequeña</p>
+          <a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
+         </div>
+        </div>
+
     
-<div class="col-3">
- <div class="card w-75">
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+    <img src="C:\Git\adopt-animals-app\Assets\Paca.JPG" title="Paca" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Paca</h5></a>
-<img src="C:\Git\adopt-animals-app\Assets\Paca.JPG" title="Paca" id="imagenpequena"class="img-fluid" alt="Responsive image"> 
-</div>
+<h5>Paca</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
 </div>
 
-<div class="col-3">
-<div class="card w-75">
+
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+<img src="C:\Git\adopt-animals-app\Assets\Lupe.JPG" title="Lupe" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Lupe</h5></a>
-<img src="C:\Git\adopt-animals-app\Assets\Lupe.JPG" class="img-fluid" alt="Responsive image" title="Lupe" id="imagenpequena"> 
-</div>
+<h5>Lupe</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
 </div>
 
-<div class="col-3">
-<div class="card w-75">
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+<img src="C:\Git\adopt-animals-app\Assets\Sasha.JPG" title="Sasha" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Sasha</h5></a>
-<img src="C:\Git\adopt-animals-app\Assets\Sasha.JPG" class="img-fluid" alt="Responsive image" title="Sasha" id="imagenpequena"> 
+<h5>Sasha</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
 </div>
-</div>
-<div class="col-3">
-<div class="card w-75">
+
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+<img src="C:\Git\adopt-animals-app\Assets\Hugo.JPG" title="Hugo" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Hugo</h5></a>
-<img src="C:\Git\adopt-animals-app\Assets\Hugo.JPG" class="img-fluid" alt="Responsive image" title="Hugo" id="imagenpequena"> 
+<h5>Hugo</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
 </div>
-</div>
-<div class="col-3">
-<div class="card w-75">
+
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+<img src="C:\Git\adopt-animals-app\Assets\Neko.JPG" title="Neko" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Neko</h5></a>
-<img src="C:\Git\adopt-animals-app\Assets\Neko.JPG" class="img-fluid" alt="Responsive image" title="Neko" id="imagenpequena"> 
+<h5>Neko</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
 </div>
-</div>
-<div class="col-3">
-<div class="card w-75">
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+<img src="C:\Git\adopt-animals-app\Assets\Estrella.JPG" title="Estrella" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Estrella</h5></a>
-<img src="C:\Git\adopt-animals-app\Assets\Estrella.JPG" class="img-fluid" alt="Responsive image" title="Estrella" id="imagenpequena"> 
+<h5>Estrella</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
-</div>
-</div>
- <div class="col-3">
-<div class="card w-75">
+</div> 
+<div class="card" style="width: 18rem;" class="col-3" class="itemcatalogo">
+<img src="C:\Git\adopt-animals-app\Assets\Yako.JPG" title="Yako" id="imagenpequena" class="card-img-top">
 <div class="card-body">
-<a href = "ficha.html"><h5>Yako</h5></a>
- <img src="C:\Git\adopt-animals-app\Assets\Yako.JPG" class="img-fluid" alt="Responsive image" title="Yako" id="imagenpequena"> 
-</div>
+<h5>Yako</h5></a>
+<p class="card-text">Descripción pequeña</p>
+<a href="ficha.html" class="btn btn-primary" id="verficha">Ver Ficha</a>
 </div>
 </div>
 </div>
